@@ -45,8 +45,7 @@ body {
         #projects-grid {
             height: 100%;
             display: grid;
-            grid-template-columns: repeat(2 1fr);
-            grid-template-rows: repeat(3 1fr);
+            grid-template-columns: 1fr 1fr;
             border: 2px solid gold;
         }
 
@@ -63,7 +62,9 @@ body {
         }
 
     #trending-container {
-    border: 2px solid yellow;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid yellow;
     }
         #trending-grid {
             height: 100%;
