@@ -19,12 +19,16 @@ body {
     grid-column: 1 / 3;
     grid-row: 1 / 11; 
     color: #ecfdf5;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
 }
 #header { 
     background-color: #d1fae5;
     grid-column: 3 / 11;
     grid-row: 1 / 3;
     display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 #main-content {
@@ -78,4 +82,10 @@ body {
 
 #projects-grid, #announcements-grid, #trending-grid {
     gap: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#projects-grid, #trending-grid {
+    margin-bottom: 4rem;
 }
