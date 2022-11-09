@@ -80,16 +80,20 @@ body {
     }
 
     #header-bottom {
-        border: 2px solid red;
         grid-area: 2 / 1 / 3 / 4;
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
         #user-info2 {
-            border: 2px solid blue;
             grid-column: 1 / 2;
             display: flex;
             justify-content: center;
+        }
+        #avatar-big {
+            width: 8em;
+        }
+        #hello-div {
+            margin:0;
         }
         #buttons {
             display: flex;
@@ -100,6 +104,8 @@ body {
             background-color: var(--space-cadet);
             color: var(--baby-powder);
             padding: 1em;
+            padding-left: 2em;
+            padding-right: 2em;
             border: none;
             border-radius: 2em;
         }
