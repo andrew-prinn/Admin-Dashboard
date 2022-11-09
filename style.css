@@ -85,6 +85,12 @@ body {
         grid-template-columns: 2fr 1fr;
     }
     #user-info1 {
+        display: flex;
+        align-items: center;
+        border:2px solid red;
+    }
+    #avatar-small {
+        width: 5em;
         border:2px solid red;
     }
     #header-bottom {
