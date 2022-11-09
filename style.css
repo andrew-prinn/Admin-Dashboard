@@ -28,7 +28,7 @@ body {
     background-color: var(--vermilion);
     grid-column: 1 / 3; 
     grid-row: 1 / 12;
-    color: #FBFEF9;
+    color: black;
     display: grid;
     grid-template-rows: 1fr 4fr 1fr 4fr 4fr;
 }
@@ -36,6 +36,9 @@ body {
         font-size: larger;
         font-weight: bolder;
         padding-top: 2em;
+    }
+    #dashboard img {
+        width: 3em;
     }
     .sidebar-section .item, #dashboard { 
         display: flex;
@@ -52,6 +55,9 @@ body {
     .sidebar-section .item:hover {
         color: lightgray;
         cursor: pointer;
+    }
+    .sidebar-section .item img {
+        width: 3em;
     }
     .sidebar-section {
         margin-top: 4em;
@@ -94,7 +100,8 @@ body {
         width: 1.5em;
     }
     #avatar-small {
-        width: 5em;
+        width: 3em;
+        height: 3em;
     }
     #header-bottom {
         grid-area: 2 / 1 / 3 / 4;
@@ -108,8 +115,7 @@ body {
         }
         #avatar-big {
             width: 8em;
-            border-radius: 100%;
-            background-color: var(--space-cadet);
+            margin-left: 1em;
         }
         #hello-div {
             margin:0;
